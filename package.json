@@ -6,8 +6,13 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+  },
+  "devDependencies": {
+    "@types/source-map": "0.5.2",
+    "source-map": "^0.7.3",
     "expect": "^24.8.0",
     "mocha": "^6.2.0",
-    "wct": "^2.4.6"
+    "wct": "^2.4.6",
+    "web-component-tester": "^6.9.2"
   }
 }

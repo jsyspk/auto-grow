@@ -2,7 +2,12 @@
   "verbose": true,
   "plugins": {
     "local": {
-      "browsers": ["chrome"]
+      "browsers": ["chrome"],
+      "browserOptions": {
+        "chrome": [
+          "start-maximized"
+        ]
+      }
     }
   },
   "suites": ["tests/"],

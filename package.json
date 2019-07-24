@@ -1,0 +1,13 @@
+{
+  "name": "auto-grow",
+  "version": "1.0.0",
+  "description": "auto grow ya",
+  "main": "dist/auto-grow.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "expect": "^24.8.0",
+    "mocha": "^6.2.0",
+    "wct": "^2.4.6"
+  }
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../node_modules/web-component-tester/browser.js"></script>
+    <script src="../dist/auto-grow.js"></script>
+</head>
+<body>
+<auto-grow></auto-grow>
+<script>
+    suite('<auto-grow>', function() {
+        let component = document.querySelector('auto-grow');
+        test('renders div', () => {
+            assert.isOk(component.shadowRoot.querySelector('div'));
+        });
+    });
+</script>
+</body>
+</html>
